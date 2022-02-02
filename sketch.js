@@ -13,7 +13,6 @@ var fruit1_img, fruit2_img, fruit3_img, fruit4_img, fruit5_img;
 var player_img;
 var player1score =0;
 var player2score =0;
-var END = 1
 
 var obstacleGroup,obstacle,obstacleImage;
 

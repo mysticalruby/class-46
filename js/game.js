@@ -35,7 +35,7 @@ class Game{
 
     obstacleGroup = new Group();
     
-        console.log(frameCount)
+        //console.log(frameCount)
        
         }
     play(){
@@ -134,7 +134,7 @@ class Game{
 
                       if(obstacleGroup.isTouching(players)){
                        //write a code to assign the value of gameState to End
-                       this.gameState=1;
+                       gameState=2;
                       }
                   }
                 }
@@ -169,8 +169,8 @@ class Game{
             var x, y;
             //write a code to create an obstacle at random x position.
             
+            x = random(25,375);
             y = 0
-            x = random(100,400)
             var obstacle = createSprite(x, y);
             obstacle.addImage("obstacle", obstacleImage);
             obstacle.velocityY = 4;
